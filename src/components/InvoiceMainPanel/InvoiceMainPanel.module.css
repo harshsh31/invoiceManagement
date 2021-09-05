@@ -1,0 +1,136 @@
+.wrapper {
+  padding: 20px;
+  box-shadow: 0 -1px 4px 0 rgba(0, 0, 0, 0.1);
+  height: 100%;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 0;
+}
+.header .invoiceDetails .invoiceHeader {
+  color: var(--headerColor);
+  font-weight: 600;
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+.header .invoiceDetails .invoiceNumber {
+  color: var(--textColor);
+  font-size: 12px;
+}
+.rightText {
+  display: flex;
+  align-items: center;
+}
+.rightText .customerDetails .customerDetailsHeader,
+.rightText .customerDetails .customerEmail {
+  font-size: 10px;
+  color: var(--textColor);
+}
+.rightText .customerDetails .customerFullName {
+  margin: 5px 0;
+  font-size: 12px;
+  color: var(--headerColor);
+  font-weight: bold;
+}
+.rightText .printButton {
+  display: flex;
+  align-items: center;
+  margin-left: 10px;
+  padding: 7px 10px;
+  border: 1px solid var(--brandColor);
+  color: var(--brandColor);
+  border-radius: 10px;
+}
+.rightText .printButton svg {
+  margin-left: 5px;
+}
+.rightText .printButton:hover {
+  color: #fff;
+  background-color: var(--brandColor);
+}
+
+.tableWrapper .table {
+  width: 100%;
+}
+.table .tableHeader {
+  border-top: 1px solid var(--borderHoverColor);
+  border-bottom: 1px solid var(--borderHoverColor);
+  color: var(--borderHoverColor);
+}
+.table .tableHeader .tableHeaderItem {
+  padding: 10px;
+  font-size: 12px;
+}
+.table .tableBody .tableBodyRow {
+  padding: 10px 0;
+  border-bottom: 1px solid var(--borderColor);
+}
+
+.table .tableBody .tableBodyRow .tableBodyRowItem {
+  padding: 10px;
+  font-size: 12px;
+}
+.table .tableBody .tableBodyRow .boldText {
+  color: var(--headerColor);
+  font-weight: 600;
+  text-align: center;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.table .tableBody .tableBodyRow .text {
+  text-align: center;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.table .tableBody .grandTotalRow .grandTotalRowItem {
+  padding: 20px;
+}
+.table .tableBody .grandTotalRow .grandTotalRowItem .grandTotalWrapper {
+  margin-left: calc(50% - 10px);
+}
+.table
+  .tableBody
+  .grandTotalRow
+  .grandTotalRowItem
+  .grandTotalWrapper
+  .subTotalText {
+  color: var(--textColor);
+  font-size: 12px;
+  margin-bottom: 10px;
+}
+.table
+  .tableBody
+  .grandTotalRow
+  .grandTotalRowItem
+  .grandTotalWrapper
+  .subTotalValue,
+.table
+  .tableBody
+  .grandTotalRow
+  .grandTotalRowItem
+  .grandTotalWrapper
+  .grandTotalValue {
+  color: var(--headerColor);
+  font-size: 12px;
+  margin-bottom: 10px;
+  font-weight: 600;
+}
+.table
+  .tableBody
+  .grandTotalRow
+  .grandTotalRowItem
+  .grandTotalWrapper
+  .grandTotalValue {
+  margin-top: 20px;
+}
+
+.grandTotalText {
+  margin-top: 20px;
+  color: var(--headerColor);
+  font-size: 14px;
+  font-weight: 600;
+}

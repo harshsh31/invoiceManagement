@@ -1,0 +1,76 @@
+.leftPanel {
+  width: 300px;
+  padding: 10px 0;
+  background-color: #000a12;
+}
+
+.searchContainer {
+  width: calc(100% - 20px);
+  height: 36px;
+  border: 1px solid #eaecf0;
+  border-radius: 10px;
+  font-size: 14px;
+  padding: 5px 5px 5px 10px;
+  display: flex;
+  background-color: #263238;
+  margin: 0 10px;
+}
+.searchContainer .icon {
+  color: #ffffff;
+}
+
+.searchContainer input {
+  width: calc(100% - 20px);
+  height: 100%;
+  border: none;
+  box-sizing: border-box;
+  line-height: 30px;
+  padding-left: 10px;
+  background-color: transparent;
+  color: #ffffff;
+}
+.icon {
+  width: 20px;
+  height: 100%;
+}
+
+.listContainer {
+  margin-top: 10px;
+  height: calc(100% - 36px);
+}
+.list {
+  height: 100%;
+}
+.list .dropdownItem {
+  padding: 10px;
+  cursor: pointer;
+  letter-spacing: 1.67px;
+}
+.list .dropdownItem:hover,
+.list .dropdownItem.selected {
+  background-color: #4f5b62;
+}
+.list .dropdownItem .invoiceDetails {
+  display: flex;
+  color: #ffffff;
+  font-size: 12px;
+  margin-bottom: 10px;
+}
+.list .dropdownItem .items {
+  color: #ffffff;
+  font-size: 12px;
+  margin-bottom: 10px;
+}
+.list .dropdownItem .customerDetails {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.list .dropdownItem .customerDetails .customerName {
+  color: #4a90e2;
+  font-size: 12px;
+}
+.list .dropdownItem .customerDetails .customerGrandTotal {
+  color: #ffffff;
+  font-weight: 600;
+}
